@@ -14,7 +14,7 @@ rake install
 
 After installing, open a new terminal window to see the effects.
 
-Follow https://github.com/powerline/fonts to install the fonts required by `powerlevel9k`.
+Follow https://github.com/powerline/fonts to install the fonts required by `powerlevel9k`. Set these fonts in the iTerm2 `Preferences` > `Profiles` > `Choose profile` > `Text` (both Font and Non-ASCII Font).
 
 ## iTerm Settings
 
