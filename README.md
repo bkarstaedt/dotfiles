@@ -14,7 +14,7 @@ rake install
 
 After installing, open a new terminal window to see the effects.
 
-Feel free to customize the `.zshrc` file to match your preference.
+Follow https://github.com/powerline/fonts to install the fonts required by `powerlevel9k`.
 
 ## iTerm Settings
 
