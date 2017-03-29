@@ -38,3 +38,9 @@
 	token = <%= print("GitHub API Token: "); STDOUT.flush; STDIN.gets.chomp %>
 [push]
 	default = matching
+[diff]
+        tool = diffmerge
+[difftool "diffmerge"]
+        cmd = /usr/local/bin/diffmerge \"$LOCAL\" \"$REMOTE\"
+[mergetool]
+        keepBackup = false
