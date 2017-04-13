@@ -6,7 +6,7 @@ ZSH_THEME="powerlevel9k/powerlevel9k"
 
 DISABLE_AUTO_UPDATE="true"
 
-plugins=(git bundler brew gem)
+plugins=(git bundler brew gem docker docker-compose)
 
 export PATH="/usr/local/bin:$PATH"
 export EDITOR='vi'
