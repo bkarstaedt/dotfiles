@@ -2,7 +2,7 @@
 	name = <%= print("Your Name: "); STDOUT.flush; STDIN.gets.chomp %>
 	email = <%= print("Your Email: "); STDOUT.flush; STDIN.gets.chomp %>
 [alias]
-  lg = log --graph --format='%cd %C(yellow)%h %Creset%s %C(red bold)%d %Creset%C(cyan) [A:%an, C:%cn]%Creset' --date=short --abbrev=10
+  lg = log --graph --format='%cr %C(yellow)%h %Creset%s %C(red bold)%d %Creset%C(cyan) [A:%an, C:%cn]%Creset' --date=short --abbrev=10
   st = status -sb
   br = branch -av
   pu = pull --rebase
