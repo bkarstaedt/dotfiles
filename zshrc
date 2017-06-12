@@ -34,3 +34,5 @@ alias mv='mv -i'
 
 # docker
 alias dc='docker-compose'
+
+eval "$(direnv hook zsh)"
