@@ -36,3 +36,11 @@ alias mv='mv -i'
 alias dc='docker-compose'
 
 eval "$(direnv hook zsh)"
+
+# SPECIFICS
+# load local file
+zshrc_additional=~/.zshrc_additional
+if [ -f "$zshrc_additional" ]
+then
+  source $zshrc_additional
+fi
