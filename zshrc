@@ -6,7 +6,7 @@ ZSH_THEME="powerlevel9k/powerlevel9k"
 
 DISABLE_AUTO_UPDATE="true"
 
-plugins=(git bundler brew gem docker docker-compose)
+plugins=(git bundler brew gem docker docker-compose node npm npx)
 
 export PATH="/usr/local/bin:$PATH"
 export EDITOR='vi'
@@ -34,6 +34,9 @@ alias mv='mv -i'
 
 # docker
 alias dc='docker-compose'
+
+# node
+alias nr='npm run'
 
 eval "$(direnv hook zsh)"
 
